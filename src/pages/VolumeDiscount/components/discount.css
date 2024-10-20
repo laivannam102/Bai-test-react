@@ -1,0 +1,45 @@
+#ButtonAdd{
+    width: calc(100% - 30px);
+    background-color: rgb(250, 122, 122);
+    border: none;
+    box-shadow: none;
+    color: #fff;
+    margin-top: 10px;
+}
+#ButtonAdd .Polaris-Button__Icon{
+    background: #fff;
+    border-radius: 50%;
+    margin-right: 3px;
+    width: 15px;
+    height: 15px;
+}
+#ButtonAdd .Polaris-Icon__Svg{
+    fill: rgb(250, 122, 122);
+}
+#SubmitButton{
+    background-color: rgb(250, 122, 122);
+    color: #fff;
+    padding: 5px 60px;
+    border: none;
+    margin-left: 50%;
+    margin-top: 30px;
+    transform: translateX(-50%);
+    box-shadow: none;
+}
+#deleteButton{
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+.custom-text{
+    text-transform: uppercase;
+    padding: 5px 20px;
+    background: rgb(250, 122, 122);
+    color: #fff;
+    font-weight: 600;
+    position: absolute;
+    left: -1rem;
+    top: -1rem;
+    z-index: 1000;
+    border-radius: none !important;
+}
